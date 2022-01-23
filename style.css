@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+    display: flex;
+    /*    flex-direction: row;*/
+    /*    flex-direction: row-reverse;*/
+    /*    flex-direction:column;*/
+    /*    flex-direction: column-reverse;*/
+    /*            flex-wrap: wrap;*/
+    /*    flex-wrap: wrap-reverse;*/
+    /*    flex-wrap: nowrap;*/
+
+    /*    Float*/
+
+    /*    justify-content: center;*/
+    /*    justify-content: flex-end*/
+    /*    justify-content: flex-start;*/
+    /*    justify-content: space-around;*/
+    /*        justify-content: space-between;*/
+    /*        justify-content: space-evenly;*/
+
+
+
+
+
+    flex-flow: row wrap;
+    /*    align-items: flex-end;*/
+    /*    align-items: flex-start;*/
+    /*    align-items: center;*/
+
+
+    /*    align-content: flex-start;*/
+    /*    align-content: space-between;*/
+    /*    align-content: center;*/
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+.z {
+    width: 120px;
+    height: 120px;
+    margin-left: 2%;
+    margin-top: 2%;
+
+}
+
+.itme_one {
+    background: #1C6DD0;
+}
+
+.itme_two {
+    background: #146356;
+}
+
+.itme_three {
+    background: yellow;
+    flex-grow: 3;
+    order: 1;
+}
+
+.itme_four {
+    background: gray;
+}
+
+.itme_five {
+    background: #B762C1;
+
+}
+
+.itme_six {
+    background: #B3541E;
+}
